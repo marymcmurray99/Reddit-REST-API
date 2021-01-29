@@ -11,6 +11,7 @@ To run locally, you must have Node.js, Express (with body parser and morgan), an
 
 To start, run with 
 > npm start
+
 this will start the server. 
 
 For getting the top posts from a given subreddit, perform a get request with the URL below 
@@ -34,8 +35,8 @@ For example, if you wanted to get the top posts from /r/badcode (one of my favor
 you would use this link https://for-subreddit-top-posts.herokuapp.com/api/v1/posts/neu
 
 # Technologies Used
-In order to simplify the get request from Reddit, Axios was used. 
-Express was used as the router for the Node.js program. 
+- In order to simplify the get request from Reddit, Axios was used.
+- EExpress was used as the router for the Node.js program. 
 
 
 
