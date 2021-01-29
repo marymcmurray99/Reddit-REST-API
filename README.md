@@ -36,7 +36,7 @@ you would use this link https://for-subreddit-top-posts.herokuapp.com/api/v1/pos
 
 # Technologies Used
 - In order to simplify the get request from Reddit, Axios was used.
-- EExpress was used as the router for the Node.js program. 
+- Express was used as the router for the Node.js program. 
 
 
 
