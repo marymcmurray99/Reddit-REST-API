@@ -23,17 +23,17 @@ function sanitizeData() {
   for(var i = 0; i < posts.length; i++) {
     var toAppend = {
     }
-    toAppend["title"] = posts[i].data.title;
-    toAppend["author"] = posts[i].data.author;
-    toAppend["permalink"] = posts[i].data.permalink;
-    toAppend["url"] = posts[i].data.url;
-    allData.push(toAppend);
+    toAppend["title"] = posts[i].data.title
+    toAppend["author"] = posts[i].data.author
+    toAppend["permalink"] = posts[i].data.permalink
+    toAppend["url"] = posts[i].data.url
+    allData.push(toAppend)
   }
   var toReturn = '';
   for (var i = 0; i < toReturn.length; i++) {
-    toReturn = toReturn + allData[i];
+    toReturn = toReturn + allData[i]
     if (i < toReturn - 1) {
-      toReturn = toReturn + ',\n';
+      toReturn = toReturn + ',\n'
     }
   }
   posts = allData;
