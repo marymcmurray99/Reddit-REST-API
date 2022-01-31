@@ -31,7 +31,7 @@ The application is deployed with Heroku and get requests can be accepted via the
 replacing *subreddit* with your chosen subreddit. 
 > https://for-subreddit-top-posts.herokuapp.com/api/v1/posts/*subreddit*
 
-For example, if you wanted to get the top posts from /r/badcode (one of my favorites!), 
+For example, if you wanted to get the top posts from /r/neu (one of my favorites!), 
 you would use this link https://for-subreddit-top-posts.herokuapp.com/api/v1/posts/neu
 
 # Technologies Used
